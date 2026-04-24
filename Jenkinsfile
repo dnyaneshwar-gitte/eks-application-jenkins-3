@@ -21,7 +21,7 @@ pipeline {
             steps {
                 git branch: 'develop',
                     credentialsId: 'github-creds',
-                    url: 'https://github.com/dnyaneshwar-gitte/https://github.com/dnyaneshwar-gitte/eks-application-jenkins-3.git'
+                    url: 'https://github.com/dnyaneshwar-gitte/eks-application-jenkins-3.git'
             }
         }
 
