@@ -60,3 +60,11 @@ typings/
 
 .idea
 build
+node_modules
+.git
+.gitignore
+Dockerfile
+README.md
+dist
+.env
+npm-debug.log
