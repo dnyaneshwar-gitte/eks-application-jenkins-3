@@ -5,9 +5,9 @@ pipeline {
         IMAGE_NAME = 'dnyaneshwar535/simple-react-app'
         IMAGE_TAG  = "${BUILD_NUMBER}"
 
-        DOCKER = 'C:\Program Files\Docker\Docker\resources\bin\docker.exe'
-        KUBECTL = 'C:\Program Files\Docker\Docker\resources\bin\kubectl.exe'
-        KUBECONFIG_FILE = 'C:\Users\dnyan\.kube\config'
+        DOCKER = 'C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe'
+        KUBECTL = 'C:\\kubectl\\kubectl.exe'
+        KUBECONFIG_FILE = 'C:\\jenkins\\kube\\config'
 
         AWS_DEFAULT_REGION = 'ap-south-1'
     }
