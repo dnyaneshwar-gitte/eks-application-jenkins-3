@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Code Checkout') {
             steps {
-                git branch: 'develop',
+                git branch: 'main',
                     credentialsId: 'github-creds',
                     url: 'https://github.com/dnyaneshwar-gitte/eks-application-jenkins-3.git'
             }
